@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.schedule-title {
+    width: 100%;
+    text-align: center;
+    color: #f1683a;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0;
+    background-color: #4444444f;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.navbar-logo {
+    float: left;
+    display: block;
+    background: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.social-media-icons {
+    display: inline;
+}
+
+.social-media-icons img {
+    height: 20px;
+    width: auto;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    gap: 1px;
+    background-color: #333;
+    padding: 1px;
+    width: auto;
+    max-width: 90%;
+}
+
+.header {
+    background-color: #555;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+.time-slot {
+    background-color: #666;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.movie1 { background-color: #98515ce1; }
+.movie2 { background-color: #2b5b6bcd; }
+.movie3 { background-color: #387438cf; }
+.movie4 { background-color: #FFA07A; }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #293353;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .validation-link a {
+    color: #3fda6b;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 20px; 
+  }
+  
+  footer .validation-link a:last-child {
+    margin-right: 0; 
+  }
+
+footer .validation-link a:hover {
+    text-decoration: underline;
+}
+
